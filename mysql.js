@@ -4,7 +4,7 @@ var app       =    express();
 
 var pool      =    mysql.createPool({
     connectionLimit : 100, //important
-    host     : 'localhost',
+    host     : '10.0.1.100',
     user     : 'user',
     password : 'userpass',
     database : 'DB1',
